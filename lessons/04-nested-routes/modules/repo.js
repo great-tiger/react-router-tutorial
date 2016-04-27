@@ -1,6 +1,7 @@
 import React from 'react'
+
 export default React.createClass({
-    render(){
-        return <div>repo</div>
+    render() {
+      return  <div>My first Repo</div>
     }
 })
