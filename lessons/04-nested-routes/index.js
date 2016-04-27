@@ -12,6 +12,7 @@ import Repo from './modules/Repo'
  * 他具体怎么用，还要看一下modules/App.js
  * 并结合网页效果，很好理解的
  * 主要是这句，渲染子视图
+ * {this.props.children}
  */
 
 render((
