@@ -9,7 +9,7 @@ import Home from './modules/Home'
 /**
  * 在App中
  * 我们会通过this.props.children来输出子组件
- * 如果children为空时，我们会采用IndexRoute采用的组件
+ * 如果children为空时，我们会采用IndexRoute设置的组件
  */
 render((
   <Router history={hashHistory}>
