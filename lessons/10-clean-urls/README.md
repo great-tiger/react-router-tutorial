@@ -1,3 +1,11 @@
+# 重点
+现代浏览器中允许js操作URL，所以＃是不必须的
+要想去除＃需要做三件事
+1、导入 browserHistory ，并在Router上做相应的配置
+2、设置 --history-api-fallback
+3、首页 引用 改为 绝对地址
+以上三个缺一不可，设置完成后，刷新试试吧
+
 # Clean URLs with Browser History
 
 The URLs in our app right now are built on a hack: the hash. Its the
